@@ -10,7 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val simple = SimpleClass()
         simple.showMessage("minwonki")
+        simple.showMessage2("minwonki")
     }
 }
